@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: steelblue;
+    background: url(/img/fnd_login.png);
     color: #fff;
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -13,22 +13,24 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+
 }
 
-.container {
-    background-color: rgba(0, 0, 0, 0.4);
+.container_form {
+    background-color: rgba(24, 24, 66, 0.808);
     padding: 20px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
-.container h1 {
+.container_form h1 {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.container a {
+.container_form a {
     text-decoration: none;
-    color: lightblue;
+    color: rgb(173, 230, 181);
 }
 
 .btn {
