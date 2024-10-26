@@ -1,0 +1,60 @@
+* {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.nav_lat {
+    background: black;
+    height: 100%;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+
+
+/* 15 */
+.btn_cus {
+    background: black;
+    border: none;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    width: 215px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.btn_cus:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+.btn_cus:hover {
+    background: linear-gradient(to right, black 80%, white 10%);
+    transition: all 10s ease;
+}
+
+.btn_cus:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn_cus a {
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+.btn_cus i {}
